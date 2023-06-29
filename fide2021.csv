@@ -1,0 +1,102 @@
+Rank,Name,Title,Country,Rating,Games,B-Year
+1,"Carlsen, Magnus",g,NOR,2862,0,1990
+2,"Caruana, Fabiano",g,USA,2823,0,1992
+3,"Ding, Liren",g,CHN,2791,0,1992
+4,"Nepomniachtchi, Ian",g,RUS,2789,0,1990
+5,"Vachier-Lagrave, Maxime",g,FRA,2784,0,1990
+6,"Aronian, Levon",g,ARM,2781,0,1982
+7,"Grischuk, Alexander",g,RUS,2777,0,1983
+8,"Mamedyarov, Shakhriyar",g,AZE,2770,0,1985
+9,"So, Wesley",g,USA,2770,0,1993
+10,"Radjabov, Teimour",g,AZE,2765,0,1987
+11,"Giri, Anish",g,NED,2764,0,1994
+12,"Rapport, Richard",g,HUN,2763,4,1996
+13,"Wang, Hao",g,CHN,2763,0,1989
+14,"Dominguez Perez, Leinier",g,USA,2758,0,1983
+15,"Karjakin, Sergey",g,RUS,2757,0,1990
+16,"Anand, Viswanathan",g,IND,2753,0,1969
+17,"Firouzja, Alireza",g,FID,2749,0,2003
+18,"Duda, Jan-Krzysztof",g,POL,2743,0,1998
+19,"Nakamura, Hikaru",g,USA,2736,0,1987
+20,"Topalov, Veselin",g,BUL,2735,0,1975
+21,"Harikrishna, Pentala",g,IND,2732,0,1986
+22,"Wei, Yi",g,CHN,2732,0,1999
+23,"Vidit, Santosh Gujrathi",g,IND,2726,0,1994
+24,"Andreikin, Dmitry",g,RUS,2725,0,1990
+25,"Adams, Michael",g,ENG,2716,0,1971
+26,"Vitiugov, Nikita",g,RUS,2715,0,1987
+27,"Svidler, Peter",g,RUS,2714,0,1976
+28,"Dubov, Daniil",g,RUS,2710,0,1996
+29,"Vallejo Pons, Francisco",g,ESP,2710,0,1982
+30,"Artemiev, Vladislav",g,RUS,2709,0,1998
+31,"Le, Quang Liem",g,VIE,2709,0,1991
+32,"Xiong, Jeffery",g,USA,2709,0,2000
+33,"Yu, Yangyi",g,CHN,2709,0,1994
+34,"Tomashevsky, Evgeny",g,RUS,2706,0,1987
+35,"Bu, Xiangzhi",g,CHN,2705,0,1985
+36,"Wojtaszek, Radoslaw",g,POL,2705,0,1987
+37,"Kryvoruchko, Yuriy",g,UKR,2699,0,1986
+38,"Navara, David",g,CZE,2697,0,1985
+39,"Alekseenko, Kirill",g,RUS,2696,0,1997
+40,"Amin, Bassem",g,EGY,2695,2,1988
+41,"Sadler, Matthew D",g,ENG,2694,0,1974
+42,"Shankland, Sam",g,USA,2691,0,1991
+43,"Predke, Alexandr",g,RUS,2690,0,1994
+44,"Matlakov, Maxim",g,RUS,2688,0,1991
+45,"Almasi, Zoltan",g,HUN,2687,0,1976
+46,"Areshchenko, Alexander",g,UKR,2687,0,1986
+47,"Fedoseev, Vladimir",g,RUS,2687,0,1995
+48,"Jakovenko, Dmitry",g,RUS,2684,0,1983
+49,"Korobov, Anton",g,UKR,2683,10,1985
+50,"Li, Chao b",g,CHN,2683,0,1989
+51,"Salem, A.R. Saleh",g,UAE,2682,0,1993
+52,"Sargissian, Gabriel",g,ARM,2682,0,1983
+53,"Ragger, Markus",g,AUT,2680,0,1988
+54,"Anton Guijarro, David",g,ESP,2679,0,1995
+55,"Nyzhnyk, Illya",g,UKR,2679,0,1996
+56,"Donchenko, Alexander",g,GER,2678,9,1998
+57,"Bacrot, Etienne",g,FRA,2678,0,1983
+58,"Ivanchuk, Vasyl",g,UKR,2678,0,1969
+59,"Esipenko, Andrey",g,RUS,2677,0,2002
+60,"Gelfand, Boris",g,ISR,2676,0,1968
+61,"Maghsoodloo, Parham",g,IRI,2676,0,2000
+62,"McShane, Luke J",g,ENG,2674,0,1984
+63,"Berkes, Ferenc",g,HUN,2673,0,1985
+64,"Robson, Ray",g,USA,2673,0,1994
+65,"Eljanov, Pavel",g,UKR,2672,0,1983
+66,"Van Foreest, Jorden",g,NED,2671,0,1999
+67,"Bluebaum, Matthias",g,GER,2670,0,1997
+68,"Jones, Gawain C B",g,ENG,2670,0,1987
+69,"Wang, Yue",g,CHN,2669,0,1987
+70,"Cheparinov, Ivan",g,BUL,2667,10,1986
+71,"Ni, Hua",g,CHN,2667,0,1983
+72,"Guseinov, Gadir",g,AZE,2665,0,1986
+73,"Kamsky, Gata",g,USA,2665,0,1974
+74,"Malakhov, Vladimir",g,RUS,2665,0,1980
+75,"Abasov, Nijat",g,AZE,2664,3,1995
+76,"Grandelius, Nils",g,SWE,2663,0,1993
+77,"Leko, Peter",g,HUN,2663,0,1979
+78,"Melkumyan, Hrant",g,ARM,2663,0,1989
+79,"Sjugirov, Sanan",g,RUS,2663,0,1993
+80,"Kasimdzhanov, Rustam",g,UZB,2662,0,1979
+81,"Shirov, Alexei",g,ESP,2662,0,1972
+82,"Sevian, Samuel",g,USA,2660,0,2000
+83,"Adhiban, B.",g,IND,2659,0,1992
+84,"Morozevich, Alexander",g,RUS,2659,0,1977
+85,"Hou, Yifan",g,CHN,2658,0,1994
+86,"Howell, David W L",g,ENG,2658,0,1990
+87,"Lupulescu, Constantin",g,ROU,2656,0,1984
+88,"Nisipeanu, Liviu-Dieter",g,GER,2656,0,1976
+89,"Inarkiev, Ernesto",g,RUS,2654,0,1985
+90,"Mamedov, Rauf",g,AZE,2654,0,1988
+91,"Cori, Jorge",g,PER,2652,0,1995
+92,"Oparin, Grigoriy",g,RUS,2652,0,1997
+93,"Rakhmanov, Aleksandr",g,RUS,2651,0,1989
+94,"Volokitin, Andrei",g,UKR,2650,0,1986
+95,"Naiditsch, Arkadij",g,AZE,2649,0,1985
+96,"Onischuk, Alexander",g,USA,2649,0,1975
+97,"Sarana, Alexey",g,RUS,2649,0,2000
+98,"Swiercz, Dariusz",g,USA,2649,0,1994
+99,"Saric, Ivan",g,CRO,2648,4,1990
+100,"Kovalev, Vladislav",g,BLR,2648,0,1994
+101,"Najer, Evgeniy",g,RUS,2648,0,1977

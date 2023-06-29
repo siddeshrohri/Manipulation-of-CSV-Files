@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>Morse Code</title>
+<script>
+
+function encdec(){
+	let str_input = document.getElementById("input").value
+	let operation = document.getElementById("operation").value
+
+  const mcode = {
+      'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.',
+      'G': '--.', 'H': '....', 'I': '..', 'J': '.---', 'K': '-.-', 'L': '.-..',
+      'M': '--', 'N': '-.', 'O': '---', 'P': '.--.', 'Q': '--.-', 'R': '.-.',
+      'S': '...', 'T': '-', 'U': '..-', 'V': '...-', 'W': '.--', 'X': '-..-',
+      'Y': '-.--', 'Z': '--..', ' ': ' ', '0': '-----',
+      '1': '.----', '2': '..---', '3': '...--', '4': '....-', '5': '.....',
+      '6': '-....', '7': '--...', '8': '---..', '9': '----.',
+      '&': '.-...', "'": '.----.', '@': '.--.-.', ')': '-.--.-', '(': '-.--.',
+      ':': '---...', ',': '--..--', '=': '-...-', '!': '-.-.--', '.': '.-.-.-',
+      '-': '-....-', '+': '.-.-.', '"': '.-..-.', '?': '..--..', '/': '-..-.'
+    }
+	if(operation == 'enc')                                                                 
+  {
+    let final_morse = ""  // To store the final morse code of the text
+    let new_str = ""  // To store the value of each character of the input
+    let encodeTxt = str_input  // To store the value from the user
+    for(let i=0;i<str_input.length;i++)  // To extract each character from the input
+    {
+    new_str = encodeTxt[i]
+    let upper = new_str.toUpperCase()  // Converts the string to upper case and stores it in a variable upper
+    let seperate = upper.split("")  // Splits the converted string
+    let mapping = seperate.map(a => mcode[a])  // To check through the dictionary for the extracted characters with morse code
+    if(mapping == '')  // To check for invalid input
+    alert("invalid input")
+    if(i == str_input.length-1)  // Condition to not print a space at the end of the morsecode
+    {
+      final_morse += mapping + ""
+      continue
+    }
+    if(mapping == ' ')  // Checks if the extracted string is a blankspace
+    {
+    final_morse += " "
+    continue
+    }
+    else
+    {
+    final_morse += mapping + " "  // To store the final morsecode
+    }
+    }
+    answer = final_morse  // To store the final morsecode in the variable answer
+  }
+
+  else
+  {
+    let reference = {
+      '.-':'A','-...':'B','-.-.':'C','-..':'D','.':'E','..-.':'F',
+      '--.':'G','....':'H','..':'I','.---':'J','-.-':'K','.-..':'L',
+      '--':'M','-.':'N','---':'O','.--.':'P','--.-':'Q','.-.':'R',
+      '...':'S','-':'T','..-':'U','...-':'V','.--':'W','-..-':'X',
+      '-.--':'Y','--..':'Z',' ':' ','-----':'0',
+      '.----':'1','..---':'2','...--':'3','....-':'4','.....':'5',
+      '-....':'6','--...':'7','---..':'8','----.':'9s',
+      '.-...':'&','.----.':"'",'.--.-.':'@','-.--.-':')','-.--.':'(',
+      '---...':':','--..--':',','-...-':'=','-.-.--':'!','.-.-.-':'.',
+      '-....-':'-','.-.-.':'+','.-..-.':'"','..--..':'?','-..-.':'/'
+    }
+    let test= ""  // To store the values of the morsecode in text form
+    let final_text = ""  // To store the final converted morsecode to text
+    let decodeTxt = str_input
+    let x = decodeTxt.split(" ")  //  Splits the morsecode
+    let maps = x.map(a => reference[a])
+    if(maps !='')
+    {
+      test += maps + ""
+    }
+    else
+    {
+      test += " "
+    }
+    text = test  // Stores the value of the converted morsecode to text
+    for(let j=0;j<text.length;j++)  // Looping to check and remove the commas seperating the letters of the converted text
+    {
+      if(text[j] == ',' && text[j+1] == ',')
+      final_text += " "
+      if(text[j] == ',')
+      continue
+      else
+      final_text += text[j]  // Stores the value of the converted morsecode without commas
+    }
+    answer = final_text
+    
+  }
+
+	document.getElementById("output").innerHTML = answer  // Printing the output
+  }
+
+</script>
+</head>
+<body>
+<H1>Morse code encoder/decoder</H1>
+<h3>@author: Siddesh R Ohri </h3>
+<div>
+<form>
+<p> Enter a string</p>
+<p> <textarea id="input" rows='5' cols='50'></textarea> </p>
+<p>
+<div id="optionloc" style="position:absolute; top:190px; left:240px;">
+<select id="operation">
+<option value="enc">Encode</option>
+<option value="dec">Decode</option>
+</select>
+</div>
+<div id="buttonloc" style="position:absolute; top:190px; left:320px;">
+<button type="button" id="submit" onclick=encdec()>Submit</button>
+</div>
+</p>
+
+<div>
+<p>Encoded/decoded Morse code: </p>
+<textarea id="output" rows='5' cols='50' readonly></textarea>
+</div>
+</form>
+</div>
+</body>
+</html>
